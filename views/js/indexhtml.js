@@ -199,7 +199,6 @@ function myEventListeners() {
   btnGuardar.addEventListener('click', (event) => {
     event.preventDefault();
     guardarProducto();
-    listarProductos();
   });
 }
 
